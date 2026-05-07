@@ -1,0 +1,93 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="420" viewBox="0 0 1200 420" role="img" aria-labelledby="title desc">
+  <title id="title">Jim Zhang wonderhoi pixel stage</title>
+  <desc id="desc">A cute pastel pixel stage banner for Jim Zhang's GitHub profile, with AI infrastructure, frontend, and ABaCAS-CGE motifs.</desc>
+  <defs>
+    <linearGradient id="sky" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#fff3fb"/>
+      <stop offset="0.45" stop-color="#eaf8ff"/>
+      <stop offset="1" stop-color="#fff8dc"/>
+    </linearGradient>
+    <linearGradient id="stage" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#ff7eb6"/>
+      <stop offset="0.5" stop-color="#8fd8ff"/>
+      <stop offset="1" stop-color="#ffd75e"/>
+    </linearGradient>
+    <filter id="softShadow" x="-20%" y="-20%" width="140%" height="140%">
+      <feDropShadow dx="0" dy="10" stdDeviation="9" flood-color="#2f2145" flood-opacity="0.18"/>
+    </filter>
+    <style>
+      .pixel { shape-rendering: crispEdges; }
+      .title { font: 800 58px "Segoe UI", "Arial", sans-serif; fill: #3a274a; letter-spacing: 1px; }
+      .subtitle { font: 700 26px "Segoe UI", "Arial", sans-serif; fill: #5d4d68; }
+      .tag { font: 700 22px "Segoe UI", "Arial", sans-serif; fill: #3a274a; }
+      .tiny { font: 700 18px "Segoe UI", "Arial", sans-serif; fill: #6c5d79; }
+      .jp { font: 800 30px "Segoe UI", "Arial", sans-serif; fill: #ff4fa3; }
+    </style>
+  </defs>
+
+  <rect width="1200" height="420" rx="34" fill="url(#sky)"/>
+
+  <g opacity="0.75">
+    <circle cx="105" cy="82" r="34" fill="#ffd75e"/>
+    <circle cx="1095" cy="72" r="40" fill="#ff9ecd"/>
+    <circle cx="1015" cy="315" r="26" fill="#8fd8ff"/>
+    <circle cx="188" cy="319" r="25" fill="#b69cff"/>
+  </g>
+
+  <g class="pixel" opacity="0.9">
+    <rect x="72" y="128" width="18" height="18" fill="#ff7eb6"/>
+    <rect x="94" y="150" width="18" height="18" fill="#ffd75e"/>
+    <rect x="1110" y="124" width="18" height="18" fill="#8fd8ff"/>
+    <rect x="1088" y="146" width="18" height="18" fill="#ff7eb6"/>
+    <rect x="1038" y="58" width="14" height="14" fill="#ffd75e"/>
+    <rect x="164" y="58" width="14" height="14" fill="#8fd8ff"/>
+  </g>
+
+  <g transform="translate(70 58)" filter="url(#softShadow)">
+    <rect x="0" y="0" width="1060" height="292" rx="28" fill="#ffffff" opacity="0.82"/>
+    <rect x="22" y="22" width="1016" height="248" rx="18" fill="#fff9fd" stroke="#3a274a" stroke-width="4"/>
+    <rect x="22" y="22" width="1016" height="52" rx="18" fill="#ffe2f1"/>
+    <circle cx="56" cy="48" r="9" fill="#ff5d9e"/>
+    <circle cx="88" cy="48" r="9" fill="#ffd75e"/>
+    <circle cx="120" cy="48" r="9" fill="#63d7c8"/>
+
+    <text x="64" y="137" class="jp">WONDERHOY!!!</text>
+    <text x="64" y="199" class="title">Jim Zhang @ wonderhoi</text>
+    <text x="68" y="240" class="subtitle">AI Infra · Front-end · ABaCAS-CGE · Pixel stage</text>
+
+    <g transform="translate(674 92)">
+      <rect x="0" y="0" width="286" height="150" rx="18" fill="#f5fbff" stroke="#3a274a" stroke-width="4"/>
+      <rect x="20" y="20" width="72" height="26" rx="8" fill="#ff9ecd"/>
+      <rect x="108" y="20" width="72" height="26" rx="8" fill="#8fd8ff"/>
+      <rect x="196" y="20" width="58" height="26" rx="8" fill="#ffd75e"/>
+      <text x="32" y="39" class="tiny">AI</text>
+      <text x="119" y="39" class="tiny">UI</text>
+      <text x="207" y="39" class="tiny">CGE</text>
+
+      <path d="M50 92 H114 V72 H172 V92 H236" fill="none" stroke="#3a274a" stroke-width="7" stroke-linecap="square"/>
+      <rect x="36" y="78" width="34" height="34" fill="#ff7eb6" stroke="#3a274a" stroke-width="4"/>
+      <rect x="107" y="58" width="42" height="42" fill="#8fd8ff" stroke="#3a274a" stroke-width="4"/>
+      <rect x="217" y="78" width="34" height="34" fill="#ffd75e" stroke="#3a274a" stroke-width="4"/>
+    </g>
+  </g>
+
+  <g transform="translate(0 324)">
+    <rect x="0" y="52" width="1200" height="44" fill="#3a274a"/>
+    <rect x="0" y="0" width="1200" height="62" fill="url(#stage)"/>
+    <g class="pixel" opacity="0.35">
+      <rect x="36" y="14" width="34" height="34" fill="#ffffff"/>
+      <rect x="105" y="18" width="28" height="28" fill="#ffffff"/>
+      <rect x="1042" y="14" width="34" height="34" fill="#ffffff"/>
+      <rect x="1114" y="18" width="28" height="28" fill="#ffffff"/>
+    </g>
+  </g>
+
+  <g class="pixel" fill="#3a274a">
+    <rect x="238" y="286" width="10" height="34"/>
+    <rect x="248" y="286" width="24" height="10"/>
+    <rect x="272" y="296" width="10" height="24"/>
+    <rect x="910" y="282" width="10" height="38"/>
+    <rect x="920" y="282" width="28" height="10"/>
+    <rect x="948" y="292" width="10" height="28"/>
+  </g>
+</svg>

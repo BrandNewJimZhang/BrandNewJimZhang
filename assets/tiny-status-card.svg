@@ -1,0 +1,45 @@
+﻿<svg xmlns="http://www.w3.org/2000/svg" width="720" height="220" viewBox="0 0 720 220" role="img" aria-labelledby="title desc">
+  <title id="title">Jim Zhang status card</title>
+  <desc id="desc">A cute status card showing Jim Zhang's current work, research, and hobbies.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#fff0f8"/>
+      <stop offset="0.55" stop-color="#effaff"/>
+      <stop offset="1" stop-color="#fff8df"/>
+    </linearGradient>
+    <style>
+      .label { font: 800 21px "Segoe UI", "Arial", sans-serif; fill: #3a274a; }
+      .value { font: 700 18px "Segoe UI", "Arial", sans-serif; fill: #66546f; }
+      .small { font: 800 16px "Segoe UI", "Arial", sans-serif; fill: #3a274a; }
+    </style>
+  </defs>
+  <rect width="720" height="220" rx="28" fill="url(#bg)"/>
+  <rect x="18" y="18" width="684" height="184" rx="22" fill="#ffffff" opacity="0.78" stroke="#3a274a" stroke-width="4"/>
+  <text x="44" y="60" class="label">Jim's tiny status panel</text>
+  <text x="44" y="91" class="value">AI Infra + Front-end + models + cute energy on one tiny stage.</text>
+  <g transform="translate(44 126)">
+    <rect width="136" height="42" rx="12" fill="#ff9ecd" stroke="#3a274a" stroke-width="3"/>
+    <text x="22" y="28" class="small">AI Infra</text>
+  </g>
+  <g transform="translate(198 126)">
+    <rect width="142" height="42" rx="12" fill="#8fd8ff" stroke="#3a274a" stroke-width="3"/>
+    <text x="22" y="28" class="small">Front-end</text>
+  </g>
+  <g transform="translate(358 126)">
+    <rect width="158" height="42" rx="12" fill="#ffd75e" stroke="#3a274a" stroke-width="3"/>
+    <text x="22" y="28" class="small">ABaCAS-CGE</text>
+  </g>
+  <g transform="translate(534 126)">
+    <rect width="122" height="42" rx="12" fill="#c9a7ff" stroke="#3a274a" stroke-width="3"/>
+    <text x="22" y="28" class="small">Rhythm</text>
+  </g>
+  <g fill="#3a274a" opacity="0.85">
+    <rect x="638" y="43" width="12" height="38"/>
+    <rect x="650" y="43" width="28" height="12"/>
+    <rect x="678" y="55" width="12" height="26"/>
+    <rect x="602" y="59" width="10" height="10"/>
+    <rect x="618" y="43" width="10" height="10"/>
+    <rect x="30" y="164" width="10" height="10"/>
+    <rect x="48" y="178" width="10" height="10"/>
+  </g>
+</svg>
