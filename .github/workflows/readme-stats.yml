@@ -1,0 +1,57 @@
+name: Refresh README stats
+
+# Self-hosted replacement for third-party stats services: regenerates the
+# pixel "top languages" card from real GitHub data and commits it back.
+on:
+  schedule:
+    - cron: "17 3 * * *" # daily, off-peak
+  workflow_dispatch: {}
+  push:
+    branches: [main]
+    paths:
+      - "scripts/generate-stats.mjs"
+      - ".github/workflows/readme-stats.yml"
+
+permissions:
+  contents: write
+
+concurrency:
+  group: readme-stats
+  cancel-in-progress: true
+
+jobs:
+  refresh:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: "20"
+
+      - name: Install SVG rasterizer
+        run: sudo apt-get update && sudo apt-get install -y librsvg2-bin
+
+      - name: Generate language card
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          GH_USER: ${{ github.repository_owner }}
+        run: node scripts/generate-stats.mjs
+
+      - name: Rasterize cards to PNG
+        run: |
+          rsvg-convert -z 2 assets/stage-banner.svg  -o assets/stage-banner.png
+          rsvg-convert -z 2 assets/status-card.svg   -o assets/status-card.png
+          rsvg-convert -z 2 assets/top-languages.svg -o assets/top-languages.png
+
+      - name: Commit if changed
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          if [ -n "$(git status --porcelain assets/)" ]; then
+            git add assets/
+            git commit -m "Chore: refresh README language card [skip ci]"
+            git push
+          else
+            echo "No changes to commit."
+          fi

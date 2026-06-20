@@ -1,0 +1,43 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="480" height="304" viewBox="0 0 480 304" role="img" aria-label="Top languages for BrandNewJimZhang">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#fff0f5"/>
+      <stop offset="1" stop-color="#fff7df"/>
+    </linearGradient>
+    <style>
+      .head { font: 800 22px "Arial Black","Arial",sans-serif; fill:#ffffff; letter-spacing:1px; }
+      .lang { font: 800 16px "Arial",sans-serif; fill:#5c2b48; }
+      .pct  { font: 700 15px "Arial",sans-serif; fill:#b86b91; }
+    </style>
+  </defs>
+  <rect width="480" height="304" fill="url(#bg)"/>
+  <rect x="16" y="16" width="448" height="272" fill="#fffafd"/>
+  <rect x="16" y="16" width="448" height="272" fill="none" stroke="#d94896" stroke-width="5"/>
+  <rect x="16" y="16" width="448" height="46" fill="#ff5eb5"/>
+  <text x="22" y="47" class="head">&#9733; TOP LANGUAGES</text>
+  <text x="22" y="108" class="lang">JavaScript</text>
+  <rect x="176" y="94" width="226" height="20" fill="#ffe9f3"/>
+  <rect x="176" y="94" width="226" height="20" fill="none" stroke="#ff85c8" stroke-width="2"/>
+  <rect x="176" y="94" width="120" height="20" fill="#f1e05a"/>
+  <text x="458" y="108" class="pct" text-anchor="end">53.1%</text>
+  <text x="22" y="148" class="lang">Python</text>
+  <rect x="176" y="134" width="226" height="20" fill="#ffe9f3"/>
+  <rect x="176" y="134" width="226" height="20" fill="none" stroke="#ff85c8" stroke-width="2"/>
+  <rect x="176" y="134" width="69" height="20" fill="#3572A5"/>
+  <text x="458" y="148" class="pct" text-anchor="end">30.3%</text>
+  <text x="22" y="188" class="lang">CSS</text>
+  <rect x="176" y="174" width="226" height="20" fill="#ffe9f3"/>
+  <rect x="176" y="174" width="226" height="20" fill="none" stroke="#ff85c8" stroke-width="2"/>
+  <rect x="176" y="174" width="20" height="20" fill="#663399"/>
+  <text x="458" y="188" class="pct" text-anchor="end">8.6%</text>
+  <text x="22" y="228" class="lang">Jupyter</text>
+  <rect x="176" y="214" width="226" height="20" fill="#ffe9f3"/>
+  <rect x="176" y="214" width="226" height="20" fill="none" stroke="#ff85c8" stroke-width="2"/>
+  <rect x="176" y="214" width="16" height="20" fill="#DA5B0B"/>
+  <text x="458" y="228" class="pct" text-anchor="end">7.3%</text>
+  <text x="22" y="268" class="lang">HTML</text>
+  <rect x="176" y="254" width="226" height="20" fill="#ffe9f3"/>
+  <rect x="176" y="254" width="226" height="20" fill="none" stroke="#ff85c8" stroke-width="2"/>
+  <rect x="176" y="254" width="8" height="20" fill="#e34c26"/>
+  <text x="458" y="268" class="pct" text-anchor="end">0.7%</text>
+</svg>

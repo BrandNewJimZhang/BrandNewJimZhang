@@ -1,0 +1,78 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="380" viewBox="0 0 1200 380" role="img" aria-labelledby="title desc">
+  <title id="title">Jim Zhang @ wonderhoi pixel stage banner</title>
+  <desc id="desc">A Wonderlands x Showtime themed pixel stage banner for Jim Zhang: AI Infra, Front-end, ABaCAS-CGE and rhythm games.</desc>
+
+  <!-- wonderlands x showtime palette, sourced from jimzhang.me globals.css -->
+  <defs>
+    <linearGradient id="sky" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#fff0f5"/>
+      <stop offset="0.5" stop-color="#ffe9f3"/>
+      <stop offset="1" stop-color="#fff7df"/>
+    </linearGradient>
+    <linearGradient id="floor" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#ff5eb5"/>
+      <stop offset="0.5" stop-color="#34dd98"/>
+      <stop offset="1" stop-color="#ffe66d"/>
+    </linearGradient>
+    <style>
+      .pixel { shape-rendering: crispEdges; }
+      .jp     { font: 800 30px "Arial Black","Arial",sans-serif; fill:#ff5eb5; letter-spacing:2px; }
+      .title  { font: 800 46px "Arial Black","Arial",sans-serif; fill:#5c2b48; letter-spacing:1px; }
+      .sub    { font: 700 24px "Arial","sans-serif"; fill:#b86b91; letter-spacing:1px; }
+      .chip   { font: 800 19px "Arial","sans-serif"; fill:#5c2b48; }
+    </style>
+  </defs>
+
+  <!-- backdrop -->
+  <rect width="1200" height="380" fill="url(#sky)"/>
+
+  <!-- corner pixel sparkles -->
+  <g class="pixel">
+    <rect x="40"  y="40" width="16" height="16" fill="#ffe66d"/>
+    <rect x="56"  y="56" width="16" height="16" fill="#ff5eb5"/>
+    <rect x="1136" y="36" width="16" height="16" fill="#34dd98"/>
+    <rect x="1120" y="52" width="16" height="16" fill="#c9b1ff"/>
+    <rect x="1148" y="300" width="14" height="14" fill="#ffb347"/>
+    <rect x="44"  y="306" width="14" height="14" fill="#34dd98"/>
+  </g>
+
+  <!-- stage card (pixel frame, zero radius) -->
+  <g transform="translate(70 48)">
+    <rect x="6" y="10" width="1060" height="252" fill="#8c265c"/>            <!-- drop shadow block -->
+    <rect x="0" y="0"  width="1060" height="252" fill="#ffffff"/>
+    <rect x="0" y="0"  width="1060" height="252" fill="none" stroke="#d94896" stroke-width="6"/>
+    <rect x="14" y="14" width="1032" height="224" fill="none" stroke="#ff85c8" stroke-width="3"/>
+
+    <!-- title bar -->
+    <rect x="14" y="14" width="1032" height="46" fill="#ffe2f1"/>
+    <circle cx="44" cy="37" r="8" fill="#ff5eb5"/>
+    <circle cx="72" cy="37" r="8" fill="#ffe66d"/>
+    <circle cx="100" cy="37" r="8" fill="#34dd98"/>
+
+    <text x="44" y="116" class="jp">WONDERHOY!!!</text>
+    <text x="42" y="172" class="title">Jim Zhang @ wonderhoi</text>
+    <text x="46" y="212" class="sub">AI Infra / Front-end / ABaCAS-CGE / Pixel stage</text>
+
+    <!-- right-side pixel equalizer (rhythm-game vibe) -->
+    <g class="pixel" transform="translate(818 96)">
+      <rect x="0"   y="60" width="34" height="60" fill="#ff5eb5"/>
+      <rect x="44"  y="20" width="34" height="100" fill="#34dd98"/>
+      <rect x="88"  y="44" width="34" height="76" fill="#ffe66d"/>
+      <rect x="132" y="8"  width="34" height="112" fill="#c9b1ff"/>
+      <rect x="176" y="52" width="34" height="68" fill="#ffb347"/>
+      <rect x="0"   y="60" width="210" height="60" fill="none"/>
+    </g>
+  </g>
+
+  <!-- stage floor -->
+  <g transform="translate(0 320)">
+    <rect x="0" y="40" width="1200" height="40" fill="#8c265c"/>
+    <rect x="0" y="0"  width="1200" height="42" fill="url(#floor)"/>
+    <g class="pixel" opacity="0.4" fill="#ffffff">
+      <rect x="40"   y="12" width="26" height="26"/>
+      <rect x="96"   y="14" width="20" height="20"/>
+      <rect x="1086" y="12" width="26" height="26"/>
+      <rect x="1144" y="14" width="20" height="20"/>
+    </g>
+  </g>
+</svg>

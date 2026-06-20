@@ -1,29 +1,36 @@
 <div align="center">
-  <img src="./assets/wonderhoi-stage.svg" alt="Jim Zhang @ wonderhoi 的像素舞台横幅" width="100%" />
+  <img src="./assets/stage-banner.png" alt="Jim Zhang @ wonderhoi 的像素舞台横幅" width="100%" />
 </div>
-
-# 你好，这里是 Jim Zhang @ wonderhoi
-
-我现在在 **ModelBest** 做 **AI Infra**，也是清华环境科学方向博士生，同时还是一个非常在意 **Front-end** 手感和可爱度的人。  
-博士研究主线围绕 **ABaCAS-CGE / ABaCAS-Power**：面向中国城市尺度转型路径的经济-能源-电力-电网耦合建模。
-
-**WONDERHOY!!!** 代码、模型、音乐、音游，还有一个叫 [jimzhang.me](https://jimzhang.me) 的小小像素舞台。
 
 <div align="center">
-  <a href="https://jimzhang.me"><img src="https://img.shields.io/badge/jimzhang.me-WONDERHOY-ff69b4?style=flat" alt="jimzhang.me" /></a>
-  <a href="https://x.com/JimZhang32"><img src="https://img.shields.io/badge/X-@JimZhang32-111111?style=flat&logo=x&logoColor=white" alt="X @JimZhang32" /></a>
-  <img src="https://img.shields.io/badge/AI%20Infra-ModelBest-8fd8ff?style=flat" alt="AI Infra at ModelBest" />
-  <img src="https://img.shields.io/badge/PhD-Environmental%20Science-63d7c8?style=flat" alt="Environmental Science PhD" />
+  <a href="https://jimzhang.me"><img src="https://img.shields.io/badge/jimzhang.me-WONDERHOY-ff5eb5?style=flat-square&labelColor=5c2b48" alt="jimzhang.me" /></a>
+  <a href="https://x.com/JimZhang32"><img src="https://img.shields.io/badge/X-@JimZhang32-ff5eb5?style=flat-square&labelColor=5c2b48&logo=x&logoColor=white" alt="X @JimZhang32" /></a>
+  <img src="https://img.shields.io/badge/AI_Infra-ModelBest-34dd98?style=flat-square&labelColor=5c2b48" alt="AI Infra at ModelBest" />
+  <img src="https://img.shields.io/badge/PhD-Environmental_Science-c9b1ff?style=flat-square&labelColor=5c2b48" alt="Environmental Science PhD" />
 </div>
 
-## 现在正在做的事
+# ☆ 你好！这里是 Jim Zhang @ wonderhoi ☆
 
-- 在 **ModelBest** 做 AI Infra 相关工作，也会关注面向开发者和内部系统的前端体验。
-- 写和维护 [jimzhang.me](https://jimzhang.me)：博客、研究记录、音乐、项目、音游面板和一些可爱像素舞台实验。
-- 推进 **ABaCAS-CGE / ABaCAS-Power** 相关博士研究：CGE、SAM、能源需求、电力调度、GIS 电网和 2020-2060 转型路径。
-- 偶尔把灵感丢进前端玩具、数据脚本、音乐工程和音游记录里。
+**WONDERHOY——！** 欢迎来到我的像素舞台！这里有代码、有模型、有音乐、还有音游，全部都在闪闪发光地演出中！🌟
 
-## 技能树
+我现在在 **ModelBest** 做 **AI Infra**，同时也是清华环境科学方向的博士生，还是一个超～在意 **Front-end** 手感和"可爱度"的人！博士研究主线围绕 **ABaCAS-CGE / ABaCAS-Power**：给中国城市尺度的转型路径做经济-能源-电力-电网耦合建模——认真的一面，也是舞台的一部分嘛！
+
+<div align="center">
+  <a href="https://nextjs.org"><img src="https://img.shields.io/badge/Next.js-000?style=flat-square&labelColor=5c2b48&logo=nextdotjs&logoColor=white" alt="Next.js" /></a>
+  <a href="https://react.dev"><img src="https://img.shields.io/badge/React-61DAFB?style=flat-square&labelColor=5c2b48&logo=react&logoColor=white" alt="React" /></a>
+  <a href="https://www.typescriptlang.org"><img src="https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&labelColor=5c2b48&logo=typescript&logoColor=white" alt="TypeScript" /></a>
+  <a href="https://tailwindcss.com"><img src="https://img.shields.io/badge/Tailwind_CSS-06B6D4?style=flat-square&labelColor=5c2b48&logo=tailwindcss&logoColor=white" alt="Tailwind CSS" /></a>
+  <a href="https://www.python.org"><img src="https://img.shields.io/badge/Python-3776AB?style=flat-square&labelColor=5c2b48&logo=python&logoColor=white" alt="Python" /></a>
+</div>
+
+## 🎤 现在舞台上正在演什么！
+
+- 💻 在 **ModelBest** 做 AI Infra，也一直盯着面向开发者和内部系统的前端体验——系统也要做得有手感！
+- ✨ 写和维护 [jimzhang.me](https://jimzhang.me)：博客、研究记录、音乐、项目、音游面板，还有一堆可爱的像素舞台实验！
+- 🔬 推进 **ABaCAS-CGE / ABaCAS-Power** 博士研究：CGE、SAM、能源需求、电力调度、GIS 电网，还有 2020–2060 的转型路径。
+- 🎮 偶尔把灵感丢进前端玩具、数据脚本、音乐工程和音游战报里——灵感不演出就浪费啦！
+
+## 🧩 技能树！
 
 ```txt
 AI Infra       ████████░░  systems, tools, workflows
@@ -34,23 +41,26 @@ Cute energy    ██████████  WONDERHOY!!!
 ```
 
 <div align="center">
-  <img src="./assets/tiny-status-card.svg" alt="Jim Zhang 的可爱状态面板" width="82%" />
+  <img src="./assets/status-card.png" alt="Jim Zhang 的可爱状态面板" width="82%" />
+  <br />
+  <img src="./assets/top-languages.png" alt="Jim Zhang 的公开仓库语言占比（自托管，不依赖第三方服务）" width="62%" />
 </div>
 
-## 一些入口
+> 🎀 上面这张语言卡是**自己做的**！由 [`scripts/generate-stats.mjs`](./scripts/generate-stats.mjs) 直接调 GitHub GraphQL 统计公开仓库的真实语言占比，再渲染成像素 SVG，跟着仓库的 Action 每天自动刷新——不再依赖任何会限流、会挂的第三方服务啦！
 
-- 个人主页：[jimzhang.me](https://jimzhang.me)
-- 公开研究/AI 相关：[OneAtmosphere-LLM](https://github.com/BrandNewJimZhang/OneAtmosphere-LLM)
-- 数据与爬虫小项目：[billboard-21st-century](https://github.com/BrandNewJimZhang/billboard-21st-century)
-- 数理逻辑实验平台：[FormalLogicJS](https://github.com/BrandNewJimZhang/FormalLogicJS)
+## 🧭 一些入口
 
-## 小声说
+- 🏠 个人主页：[jimzhang.me](https://jimzhang.me)
+- 🤖 公开研究 / AI 相关：[OneAtmosphere-LLM](https://github.com/BrandNewJimZhang/OneAtmosphere-LLM)
+- 🕷️ 数据与爬虫小项目：[billboard-21st-century](https://github.com/BrandNewJimZhang/billboard-21st-century)
+- 🧠 数理逻辑实验平台：[FormalLogicJS](https://github.com/BrandNewJimZhang/FormalLogicJS)
 
-我喜欢把严肃系统做得清楚，也喜欢把个人项目做得闪闪发光。  
-如果一个 README 也能像舞台开场一样让人笑一下，那就太好了。
+## 🎀 小声说
+
+えむ一直觉得，**每一个路过这里的人，都已经是观众的一部分了！**
+
+所以我喜欢把严肃系统做得清楚，也喜欢把个人项目做得闪闪发光。如果一个 README 也能像舞台开场一样让人笑一下，那就太好了——
 
 <div align="center">
   <strong>☆ WONDERHOY! ☆</strong>
-  <br />
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=brandnewjimzhang&layout=compact&hide_border=true&bg_color=ffffff00&title_color=ff69b4&text_color=6c5d79" alt="Top Langs" />
 </div>
