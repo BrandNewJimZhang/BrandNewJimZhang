@@ -22,6 +22,9 @@ concurrency:
 jobs:
   refresh:
     runs-on: ubuntu-latest
+    env:
+      # secrets.* cannot be referenced from a step-level if:, so surface it here
+      STATS_TOKEN: ${{ secrets.STATS_TOKEN }}
     steps:
       - uses: actions/checkout@v4
 
@@ -32,9 +35,15 @@ jobs:
       - name: Install SVG rasterizer
         run: sudo apt-get update && sudo apt-get install -y librsvg2-bin
 
+      # The card counts ALL repos (public + private) plus the AutoSkill
+      # contribution, so it needs a PAT with repo scope (STATS_TOKEN). The
+      # default Actions token only sees this repo. Without STATS_TOKEN we skip
+      # regeneration and keep the committed snapshot rather than overwriting it
+      # with public-only data.
       - name: Generate language card
+        if: ${{ env.STATS_TOKEN != '' }}
         env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          GITHUB_TOKEN: ${{ env.STATS_TOKEN }}
           GH_USER: ${{ github.repository_owner }}
         run: node scripts/generate-stats.mjs
 

@@ -1,6 +1,6 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="1200" height="380" viewBox="0 0 1200 380" role="img" aria-labelledby="title desc">
   <title id="title">Jim Zhang @ wonderhoi pixel stage banner</title>
-  <desc id="desc">A Wonderlands x Showtime themed pixel stage banner for Jim Zhang: AI Infra, Front-end, ABaCAS-CGE and rhythm games.</desc>
+  <desc id="desc">A Wonderlands x Showtime themed pixel stage banner for Jim Zhang: AI Infra, Front-end, ABaCAS-Power and rhythm games.</desc>
 
   <!-- wonderlands x showtime palette, sourced from jimzhang.me globals.css -->
   <defs>
@@ -16,10 +16,10 @@
     </linearGradient>
     <style>
       .pixel { shape-rendering: crispEdges; }
-      .jp     { font: 800 30px "Arial Black","Arial",sans-serif; fill:#ff5eb5; letter-spacing:2px; }
-      .title  { font: 800 46px "Arial Black","Arial",sans-serif; fill:#5c2b48; letter-spacing:1px; }
-      .sub    { font: 700 24px "Arial","sans-serif"; fill:#b86b91; letter-spacing:1px; }
-      .chip   { font: 800 19px "Arial","sans-serif"; fill:#5c2b48; }
+      .jp     { font: 900 30px "Arial","Helvetica",sans-serif; fill:#ff5eb5; letter-spacing:2px; }
+      .title  { font: 900 46px "Arial","Helvetica",sans-serif; fill:#5c2b48; letter-spacing:1px; }
+      .sub    { font: 700 24px "Arial","Helvetica",sans-serif; fill:#b86b91; letter-spacing:1px; }
+      .chip   { font: 800 19px "Arial","Helvetica",sans-serif; fill:#5c2b48; }
     </style>
   </defs>
 
@@ -51,7 +51,7 @@
 
     <text x="44" y="116" class="jp">WONDERHOY!!!</text>
     <text x="42" y="172" class="title">Jim Zhang @ wonderhoi</text>
-    <text x="46" y="212" class="sub">AI Infra / Front-end / ABaCAS-CGE / Pixel stage</text>
+    <text x="46" y="212" class="sub">AI Infra / Front-end / ABaCAS-Power / Pixel stage</text>
 
     <!-- right-side pixel equalizer (rhythm-game vibe) -->
     <g class="pixel" transform="translate(818 96)">

@@ -41,12 +41,12 @@ Cute energy    ██████████  WONDERHOY!!!
 ```
 
 <div align="center">
-  <img src="./assets/status-card.png" alt="Jim Zhang 的可爱状态面板" width="82%" />
+  <img src="./assets/status-card.png" alt="Jim Zhang 的可爱状态面板" width="100%" />
   <br />
-  <img src="./assets/top-languages.png" alt="Jim Zhang 的公开仓库语言占比（自托管，不依赖第三方服务）" width="62%" />
+  <img src="./assets/top-languages.png" alt="Jim Zhang 的全部仓库语言占比（含 AutoSkill 贡献，自托管，不依赖第三方服务）" width="100%" />
 </div>
 
-> 🎀 上面这张语言卡是**自己做的**！由 [`scripts/generate-stats.mjs`](./scripts/generate-stats.mjs) 直接调 GitHub GraphQL 统计公开仓库的真实语言占比，再渲染成像素 SVG，跟着仓库的 Action 每天自动刷新——不再依赖任何会限流、会挂的第三方服务啦！
+> 🎀 上面这张语言卡是**自己做的**！由 [`scripts/generate-stats.mjs`](./scripts/generate-stats.mjs) 直接调 GitHub GraphQL 统计**全部仓库**（公开 + 私有）的真实语言占比，并把我在 AutoSkill 上高强度编写的那部分也算进来，再渲染成像素 SVG——不再依赖任何会限流、会挂的第三方服务啦！
 
 ## 🧭 一些入口
 
