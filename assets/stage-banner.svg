@@ -1,6 +1,6 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="1200" height="380" viewBox="0 0 1200 380" role="img" aria-labelledby="title desc">
   <title id="title">Jim Zhang @ wonderhoi pixel stage banner</title>
-  <desc id="desc">A Wonderlands x Showtime themed pixel stage banner for Jim Zhang: AI Infra, Front-end, ABaCAS-Power and rhythm games.</desc>
+  <desc id="desc">A Wonderlands x Showtime themed pixel stage banner for Jim Zhang: AI for AI, Front-end, ABaCAS-Power and rhythm games.</desc>
 
   <!-- wonderlands x showtime palette, sourced from jimzhang.me globals.css -->
   <defs>
@@ -51,7 +51,7 @@
 
     <text x="44" y="116" class="jp">WONDERHOY!!!</text>
     <text x="42" y="172" class="title">Jim Zhang @ wonderhoi</text>
-    <text x="46" y="212" class="sub">AI Infra / Front-end / ABaCAS-Power / Pixel stage</text>
+    <text x="46" y="212" class="sub">AI for AI / Front-end / ABaCAS-Power / Pixel stage</text>
 
     <!-- right-side pixel equalizer (rhythm-game vibe) -->
     <g class="pixel" transform="translate(818 96)">

@@ -1,6 +1,6 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="1200" height="260" viewBox="0 0 1200 260" role="img" aria-labelledby="title desc">
   <title id="title">Jim Zhang status card</title>
-  <desc id="desc">A Wonderlands x Showtime themed pixel status card: AI Infra, Front-end, ABaCAS-Power and rhythm.</desc>
+  <desc id="desc">A Wonderlands x Showtime themed pixel status card: AI for AI, Front-end, ABaCAS-Power and rhythm.</desc>
   <defs>
     <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
       <stop offset="0" stop-color="#fff0f5"/>
@@ -22,23 +22,23 @@
   <rect x="34" y="34" width="1122" height="184" fill="none" stroke="#ff85c8" stroke-width="3"/>
 
   <text x="58" y="86" class="label">Jim's tiny status panel</text>
-  <text x="58" y="124" class="value">AI Infra + Front-end + models + cute energy on one pixel stage.</text>
+  <text x="58" y="124" class="value">AI for AI + Front-end + models + cute energy on one pixel stage.</text>
 
   <!-- chips (zero radius pixel tags) -->
   <g class="chip">
     <g transform="translate(58 156)">
-      <rect width="190" height="50" fill="#ff5eb5"/><rect width="190" height="50" fill="none" stroke="#8c265c" stroke-width="3"/>
-      <text x="28" y="33" fill="#ffffff">AI Infra</text>
+      <rect width="214" height="50" fill="#ff5eb5"/><rect width="214" height="50" fill="none" stroke="#8c265c" stroke-width="3"/>
+      <text x="28" y="33" fill="#ffffff">AI for AI</text>
     </g>
-    <g transform="translate(272 156)">
+    <g transform="translate(296 156)">
       <rect width="206" height="50" fill="#34dd98"/><rect width="206" height="50" fill="none" stroke="#0a3d26" stroke-width="3"/>
       <text x="28" y="33" fill="#0a3d26">Front-end</text>
     </g>
-    <g transform="translate(502 156)">
+    <g transform="translate(526 156)">
       <rect width="262" height="50" fill="#ffe66d"/><rect width="262" height="50" fill="none" stroke="#8c6a00" stroke-width="3"/>
       <text x="28" y="33" fill="#5c2b48">ABaCAS-Power</text>
     </g>
-    <g transform="translate(788 156)">
+    <g transform="translate(812 156)">
       <rect width="190" height="50" fill="#c9b1ff"/><rect width="190" height="50" fill="none" stroke="#4b2d8c" stroke-width="3"/>
       <text x="32" y="33" fill="#3a1d6e">Rhythm</text>
     </g>
