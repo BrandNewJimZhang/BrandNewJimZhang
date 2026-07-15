@@ -3,17 +3,17 @@
 </div>
 
 <div align="center">
-  <a href="https://jimzhang.me"><img src="https://img.shields.io/badge/jimzhang.me-WONDERHOY-ff5eb5?style=flat-square&labelColor=5c2b48" alt="jimzhang.me" /></a>
-  <a href="https://x.com/JimZhang32"><img src="https://img.shields.io/badge/X-@JimZhang32-ff5eb5?style=flat-square&labelColor=5c2b48&logo=x&logoColor=white" alt="X @JimZhang32" /></a>
-  <img src="https://img.shields.io/badge/AI_Infra-ModelBest-34dd98?style=flat-square&labelColor=5c2b48" alt="AI Infra at ModelBest" />
-  <img src="https://img.shields.io/badge/PhD-Environmental_Science-c9b1ff?style=flat-square&labelColor=5c2b48" alt="Environmental Science PhD" />
+  <a href="https://jimzhang.me"><img src="https://img.shields.io/badge/jimzhang.me-WONDERHOY-ffbb00?style=flat-square&labelColor=5c2b48" alt="jimzhang.me" /></a>
+  <a href="https://x.com/JimZhang32"><img src="https://img.shields.io/badge/X-@JimZhang32-ff66bc?style=flat-square&labelColor=5c2b48&logo=x&logoColor=white" alt="X @JimZhang32" /></a>
+  <img src="https://img.shields.io/badge/AI_for_AI-ModelBest-34dd9a?style=flat-square&labelColor=5c2b48" alt="AI for AI at ModelBest" />
+  <img src="https://img.shields.io/badge/PhD-Environmental_Science-bb88ed?style=flat-square&labelColor=5c2b48" alt="Environmental Science PhD" />
 </div>
 
 # ☆ 你好！这里是 Jim Zhang @ wonderhoi ☆
 
 **WONDERHOY——！** 欢迎来到我的像素舞台！这里有代码、有模型、有音乐、还有音游，全部都在闪闪发光地演出中！🌟
 
-我现在在 **ModelBest** 做 **AI Infra**，同时也是清华环境科学方向的博士生，还是一个超～在意 **Front-end** 手感和"可爱度"的人！博士研究主线围绕 **ABaCAS-Power**：给中国城市尺度的转型路径做经济-能源-电力-电网耦合建模——认真的一面，也是舞台的一部分嘛！
+我现在在 **ModelBest** 做 **AI for AI**，同时也是清华环境科学方向的博士生，还是一个超～在意 **Front-end** 手感和"可爱度"的人！博士研究主线围绕 **ABaCAS-Power**：给中国城市尺度的转型路径做经济-能源-电力-电网耦合建模——认真的一面，也是舞台的一部分嘛！
 
 <div align="center">
   <a href="https://nextjs.org"><img src="https://img.shields.io/badge/Next.js-000?style=flat-square&labelColor=5c2b48&logo=nextdotjs&logoColor=white" alt="Next.js" /></a>
@@ -25,7 +25,7 @@
 
 ## 🎤 现在舞台上正在演什么！
 
-- 💻 在 **ModelBest** 做 AI Infra，也一直盯着面向开发者和内部系统的前端体验——系统也要做得有手感！
+- 💻 在 **ModelBest** 做 AI for AI，也一直盯着面向开发者和内部系统的前端体验——系统也要做得有手感！
 - ✨ 写和维护 [jimzhang.me](https://jimzhang.me)：博客、研究记录、音乐、项目、音游面板，还有一堆可爱的像素舞台实验！
 - 🔬 推进 **ABaCAS-Power** 博士研究：CGE、SAM、能源需求、电力调度、GIS 电网，还有 2020–2060 的转型路径。
 - 🎮 偶尔把灵感丢进前端玩具、数据脚本、音乐工程和音游战报里——灵感不演出就浪费啦！
@@ -33,7 +33,7 @@
 ## 🧩 技能树！
 
 ```txt
-AI Infra       ████████░░  systems, tools, workflows
+AI for AI      ████████░░  agents, self-evolving systems, workflows
 Front-end      █████████░  React, Next.js, TypeScript, Tailwind CSS
 Research       ████████░░  CGE, SAM, energy-power-grid modelling
 Data scripts   ███████░░░  Python, data processing, visualization
